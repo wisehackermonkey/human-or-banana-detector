@@ -32,6 +32,7 @@ docker run -d --restart=always -p 4444:80 wisehackermonkey/human-or-banana-detec
 cd ~
 git clone https://github.com/wisehackermonkey/human-or-banana-detector.git
 cd human-or-banana-detector
+docker-compose pull
 docker-compose up -d
 ```
 #### push
