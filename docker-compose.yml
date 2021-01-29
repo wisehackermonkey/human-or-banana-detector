@@ -4,3 +4,6 @@ services:
   human-or-banana-detector:
     image: wisehackermonkey/human-or-banana-detector:latest
     restart: always
+    ports: 
+      # uncomment if you want to use 80 as your port
+      - '4444:80'
