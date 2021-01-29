@@ -1,5 +1,6 @@
 version: '3.4'
 
 services:
-  humanorbananadetector:
+  human-or-banana-detector:
     image: wisehackermonkey/human-or-banana-detector:latest
+    restart: always
