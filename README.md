@@ -1,8 +1,8 @@
 # human-or-banana-detector
  simple webpage that uses the webcam to detect if it sees a banana or a human
 
-
-
+# Demo  gif of project in action
+![](./demo_v2.gif)
 # Docker development commands
 #### Build
 ```bash
